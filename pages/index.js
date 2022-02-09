@@ -473,12 +473,12 @@ Age Groups
 
                </div>
                 <div class="row mt-5 justify-content-center">
-                    {
+                    {/* {
                         blogsmain.map((x,i)=><div key={i} class="col-lg-4 col-md-6 col-sm-12 pl-4 mb-3">
                         <CardDSP1 x={x} image={x.image} head={x.name} title={`by ${x.author&&x.author.name} - ${moment(x.created_at).format("DD MMM yyyy")}`} post={getTime(x.content).text} />
                     </div>)
                     }
-                    
+                     */}
                      
                 </div>
                 <div className="row">
